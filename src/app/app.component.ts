@@ -3,9 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
   // Replace with your markup
-  template: `
-  <div *responsive='foo'></div>
-`,
+  templateUrl: 'app.component.html',
   styles: [ `h2 { font-weight: normal; }
   `]
 })

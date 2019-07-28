@@ -21,6 +21,7 @@ const resize = fromEvent(window, 'resize').pipe(
   selector: '[responsive]'
 })
 export class ResponsiveDirective {
+  @Input() responsive: string;
 
   constructor(
     private templateRef: TemplateRef<unknown>,
